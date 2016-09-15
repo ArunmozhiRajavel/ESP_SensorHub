@@ -10,7 +10,7 @@ wifi.ap.setip(cfg)
 print(wifi.ap.getip())
 cfg = {
     ssid = "configMode",
-    pwd = "password1234",
+    pwd = "password123",
     ecn = 0,
     chl = 6
 }
