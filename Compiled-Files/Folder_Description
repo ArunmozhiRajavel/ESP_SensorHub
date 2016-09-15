@@ -1,0 +1,2 @@
+Contains all the compiled version of lua scripts in form of .lc files.
+Can be directly flashed NodeMCU devkit
