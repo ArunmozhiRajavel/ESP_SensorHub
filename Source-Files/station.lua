@@ -1,5 +1,5 @@
 wifi.setmode(wifi.STATION)
-wifi.sta.config("D-Link_Seanul","20072117")
+wifi.sta.config("wifi_ssid","password")
 wifi.sta.connect()
 tmr.alarm(1, 1000, 1, function() 
 if wifi.sta.getip()== nil then print("WiFi not connected") 
